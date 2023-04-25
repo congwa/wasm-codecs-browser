@@ -40,6 +40,8 @@ node上编译参数是啥？不想读文档可以看这里，有现成的
 
 [mozjpeg使用emscripten/emsdk编译wasm参数](/mozjpeg/Makefile)，其它库同理
 
+如果是rust，你会发现，[使用wasm-pack就可以了](/oxipng/build.sh),不得不说，rust是一个好语言，永远不会有内存泄漏问题导致它写啥用户用的都放心，唯一缺点就是开发慢，语法难。
+
 其中enc是编码器
 其中dec是解码器
 

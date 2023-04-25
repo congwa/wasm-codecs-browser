@@ -23,6 +23,8 @@ in browser.WebAssembly codecs for mozjpeg, oxipng, gifsicle and webp。
 
 ### 编译成wasm，在服务器上使用
 
+wasm给了前端、后端无限的想象力，wasm作为胶水语言再配合wasm runtime可以任意可达。曾经读过一个项目通过使用ffpemg在浏览器进行视频帧拆解，然后浏览器剪辑，之后合成一个新视频的web项目。现在应该在github上一搜有很多的类似项目了。
+
 编译wasm以mozjpeg为例
 > 使用emscripten/emsdk进行编译成wasm
 
@@ -53,9 +55,12 @@ node上编译参数是啥？不想读文档可以看这里，有现成的
 
 ## 在浏览器中使用
 
-这里给出两个示例
+我相信能看到本项目的一定是有阅读代码的能力的，而且，在前端有一定开发经验和对wasm有一定了解的开发者，这里给出几个示例
 - [squoosh开源项目的使用-17行encode跟着代码追即可](https://github.com/GoogleChromeLabs/squoosh/blob/dev/src/features/encoders/mozJPEG/client/index.tsx)
 - [一个大佬的nextjs项目中的使用，我这里提供一个测试用例，源码包里有具体使用](https://github.com/coolweb131/next.js-template/blob/84e6c9ec5b3e7f654c7f868dfb6837e7072efbe8/packages/next/next-server/server/lib/squoosh/main.ts#L64)
+    > 项目中也有具体的参数的使用，能直接通过点击看到每个参数的效果
+- [基于wasm在浏览器imagestool工具](https://github.com/renzhezhilu/webp2jpg-online)
+    > 这是社区内某个大佬基于以上分享实现的前端压缩网页工具，代码结构非常简单，功能不多，很容易理解。
 
 
 ## 我自己基于以上经验实现的库

@@ -3,7 +3,7 @@ in browser.WebAssembly codecs for mozjpeg, oxipng, gifsicle and webp。
 
 本包包含编译成 WebAssembly 的不同代码，因此它们可以安装在任何系统上并且不需要本地二进制文件，包括浏览器。
 
-基于 Squoosh 团队所做的工作。
+经过我发现市面上所有的类似工具，都是基于 [Squoosh](https://github.com/GoogleChromeLabs/squoosh) 团队所做的工作。
 
 接下来授人之渔， 如果对你**有帮助，请给我star**
 

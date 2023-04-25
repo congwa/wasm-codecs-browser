@@ -65,5 +65,7 @@ node上编译参数是啥？不想读文档可以看这里，有现成的
 
 ## 最后
 
+如果您想了解更多，请来我的[博客](https://github.com/congwa/Front-end-Basics-Notes)
+
 如果本文对你有帮助或者启发，或者给您节省了时间，**请给我star**
 

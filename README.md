@@ -59,8 +59,14 @@ node上编译参数是啥？不想读文档可以看这里，有现成的
 - [squoosh开源项目的使用-17行encode跟着代码追即可](https://github.com/GoogleChromeLabs/squoosh/blob/dev/src/features/encoders/mozJPEG/client/index.tsx)
 - [一个大佬的nextjs项目中的使用，我这里提供一个测试用例，源码包里有具体使用](https://github.com/coolweb131/next.js-template/blob/84e6c9ec5b3e7f654c7f868dfb6837e7072efbe8/packages/next/next-server/server/lib/squoosh/main.ts#L64)
     > 项目中也有具体的参数的使用，能直接通过点击看到每个参数的效果
-- [基于wasm在浏览器imagestool工具](https://github.com/renzhezhilu/webp2jpg-online)
+- [基于wasm在浏览器imagestool工具](https://github.com/renzhezhilu/webp2jpg-online-demo)
     > 这是社区内某个大佬基于以上分享实现的前端压缩网页工具，代码结构非常简单，功能不多，很容易理解。
+
+### 浏览器直接兼容
+
+本来想着自己集成一下的，结果逛了逛发现已经有人集成好了npm包，这里我就不做了，列出来
+
+[已经发布到npm直接可用的前端开发包](https://github.com/jamsinclair/jSquash)，源码非常简单，就是集成的谷歌团队的
 
 
 ## 我自己基于以上经验实现的库
